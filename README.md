@@ -6,7 +6,7 @@ A simple shell function to automate Obsidian vault backups to ProtonDrive using 
 ![Fish](https://img.shields.io/badge/Shell-Fish-4EAA25?logo=gnu-bash&logoColor=white)
 ![Zsh](https://img.shields.io/badge/Shell-Zsh-4EAA25?logo=gnu-bash&logoColor=white)
 ![rclone](https://img.shields.io/badge/Uses-rclone-blue)
-![License](https://img.shields.io/github/license/yourusername/obsidian-vault-backup)
+![License](https://img.shields.io/github/license/linuxmunchies/obsidian-vault-backup)
 
 ## Features
 
