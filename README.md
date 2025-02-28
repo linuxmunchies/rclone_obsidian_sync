@@ -23,23 +23,31 @@ A simple shell function to automate Obsidian vault backups to ProtonDrive using 
 
 ### Bash (.bashrc)
 Add the function to ~/.bashrc
+
 `vim ~/.bashrc`
 
 Paste the function at the end of the file
+
 `source ~/.bashrc`
 
 ### Zsh (.zshrc)
 
 Add the function to ~/.zshrc
-vim ~/.zshrc
+
+`vim ~/.zshrc`
+
 Paste the function at the end of the file
+
 `source ~/.zshrc`
 
 ### Fish (config.fish)
+
 Add to ~/.config/fish/config.fish
+
 `vim ~/.config/fish/config.fish`
 
 Paste the converted function at the end of the file
+
 `source ~/.config/fish/config.fish`
 
 ## Customization
