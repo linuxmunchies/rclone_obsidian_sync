@@ -23,19 +23,19 @@ A simple shell function to automate Obsidian vault backups to ProtonDrive using 
 
 Detailed instructions in the [documentation](docs/README.md).
 
-## Quick Start
+## Customization
+You can customize the following variables in the function:
 
-```bash
-# Add this function to your shell configuration file
-# (.bashrc, .zshrc, or config.fish)
+Change the vault location by modifying ${HOME}/Documents/Obsidian
+Change the backup name prefix by modifying FoxVault_ in the zipfile variable
+Change the destination by modifying ProtonDrive:Archives/Obsidian/
 
-# For Bash/Zsh:
-fvault_backup() {
-  # Function code here...
-}
+## Troubleshooting
 
-# Then run:
-fvault_backup
+rclone not found: Install rclone with sudo dnf install rclone (Fedora) or appropriate package manager
+ProtonDrive remote not configured: Set up the remote with rclone config
+Permissions issues: Ensure you have read access to your Obsidian vault and write access to /tmp
+Network issues: Check your internet connection and ProtonDrive access
 
 # License
 MIT
