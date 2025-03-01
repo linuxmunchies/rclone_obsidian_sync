@@ -1,6 +1,6 @@
 # Obsidian Vault Backup Tool
 
-A simple shell function to automate Obsidian vault backups to ProtonDrive using rclone.
+A simple shell function made to sync Obsidian vault backups to ProtonDrive using rclone.
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
 ![Fish](https://img.shields.io/badge/Shell-Fish-4EAA25?logo=gnu-bash&logoColor=white)
